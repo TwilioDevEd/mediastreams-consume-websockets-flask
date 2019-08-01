@@ -39,8 +39,8 @@ def echo(ws):
                 app.logger.info("That's {} bytes".format(len(chunk)))
                 app.logger.info("Additional media messages from WebSocket are being suppressed....")
                 has_seen_media = True
-        if data['event'] == "closed":
-            app.logger.info("Closed Message received: {}".format(message))
+        if data['event'] == "stop":
+            app.logger.info("Stop Message received: {}".format(message))
             break
         message_count += 1
 
