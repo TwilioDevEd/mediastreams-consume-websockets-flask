@@ -5,6 +5,6 @@ gevent==1.4.0
 gevent-websocket==0.10.1
 greenlet==0.4.15
 itsdangerous==1.1.0
-Jinja2==2.10.1
+Jinja2==2.11.1
 MarkupSafe==1.1.1
 Werkzeug==0.15.6
